@@ -1,0 +1,36 @@
+.conteiner-filter {
+  margin: 20px auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 400px;
+  height: 70px;
+  border: 2px solid rgb(133, 117, 117);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(128, 110, 110);
+}
+
+.label-filter {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-filter {
+  margin-top: 5px;
+  padding: 10px 0;
+  padding-left: 10px;
+  width: 97%;
+  font-size: 14px;
+  border: 2px solid rgb(158, 114, 114);
+  border-radius: 5px;
+}
+
+.input-filter:focus-visible {
+  outline: none !important;
+  border-color: #017c01;
+}

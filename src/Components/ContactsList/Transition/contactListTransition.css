@@ -1,0 +1,21 @@
+.contacts-list-transition-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.contacts-list-transition-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 250ms linear;
+}
+
+.contacts-list-transition-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.contacts-list-transition-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: all 250ms linear;
+}

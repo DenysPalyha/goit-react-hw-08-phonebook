@@ -1,0 +1,8 @@
+.title-transition-appear {
+  transform: translateX(-100%);
+}
+
+.title-transition-appear-active {
+  transform: translateX(0);
+  transition: all 500ms linear;
+}
